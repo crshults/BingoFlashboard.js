@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+@font-face {
+	font-family: junegull;
+	src: url('junegull.ttf');
+}
+
+#BingoFlashboardContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#BingoFlashboard {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	background-color: gray;
+}
+
+.BingoFlashboardElement {
+	position: absolute;
+}
+
+#BingoFlashboardTitle {
+	width: 13.846153846153847%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+}
+
+.BingoFlashboardTitleSpacer {
+	height: 100%;
+	top: 0%;
+}
+
+#BingoFlashboardTitleSpacer1 {
+	width: 55.55555555555556%;
+	left: 0%;
+	background-color: red;
+}
+
+#BingoFlashboardTitleSpacer2 {
+	width: 44.44444444444444%;
+	left: 55.55555555555556%;
+	background-color: white;
+}
+
+.BingoFlashboardText {
+	font-family: junegull;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100%;
+}
+
+.BingoFlashboardTitleLetter {
+	color: red;
+	left: 59.25925925925926%;
+	width: 31.48148148148148%;
+	height: 20%;
+}
+
+#BingoFlashboardTitleB {top: 0%;}
+#BingoFlashboardTitleI {top: 20%;}
+#BingoFlashboardTitleN {top: 40%;}
+#BingoFlashboardTitleG {top: 60%;}
+#BingoFlashboardTitleO {top: 80%;}
+
+#BingoFlashboardFace {
+	position: absolute;
+	width: 86.15384615384616%;
+	height: 100%;
+	top: 0%;
+	left: 13.846153846153847%;
+	background-color: black;
+}
+
+.BingoFlashboardSpot {
+	width: 6.666666666666667%;
+	height: 20%;
+	color: white;
+}
+
+.BingoFlashboardSpotRowB {top: 0%;}
+.BingoFlashboardSpotRowI {top: 20%;}
+.BingoFlashboardSpotRowN {top: 40%;}
+.BingoFlashboardSpotRowG {top: 60%;}
+.BingoFlashboardSpotRowO {top: 80%;}
+
+.BingoFlashboardSpotColumn01 {left: 0%;}
+.BingoFlashboardSpotColumn02 {left: 6.666666666666667%;}
+.BingoFlashboardSpotColumn03 {left: 13.333333333333334%;}
+.BingoFlashboardSpotColumn04 {left: 20.0%;}
+.BingoFlashboardSpotColumn05 {left: 26.666666666666668%;}
+.BingoFlashboardSpotColumn06 {left: 33.333333333333336%;}
+.BingoFlashboardSpotColumn07 {left: 40.0%;}
+.BingoFlashboardSpotColumn08 {left: 46.666666666666664%;}
+.BingoFlashboardSpotColumn09 {left: 53.33333333333333%;}
+.BingoFlashboardSpotColumn10 {left: 59.99999999999999%;}
+.BingoFlashboardSpotColumn11 {left: 66.66666666666666%;}
+.BingoFlashboardSpotColumn12 {left: 73.33333333333333%;}
+.BingoFlashboardSpotColumn13 {left: 80.0%;}
+.BingoFlashboardSpotColumn14 {left: 86.66666666666667%;}
+.BingoFlashboardSpotColumn15 {left: 93.33333333333334%;}
